@@ -1,0 +1,9 @@
+.add__button{
+    margin: 10px;
+    background: rgb(149, 149, 249);
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: rgb(149, 149, 249);
+    font-weight: bold;
+    cursor: pointer;
+}
