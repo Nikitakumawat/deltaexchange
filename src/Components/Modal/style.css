@@ -14,8 +14,8 @@
   background-color: white;
   padding: 15px;
   border-radius: 8px;
-  height: 70vh;
-  width: 75vw;
+  height: 70%;
+  width: 75%;
 }
 
 .close-btn {
@@ -38,4 +38,47 @@
 .user__input{
   padding: 5px;
   width: 80%;
+}
+
+@media (max-width: 1440px) {
+    .modal-content {
+        background-color: white;
+        padding: 15px;
+        border-radius: 8px;
+        height: 80%;
+        width: 75%;
+      }
+
+}
+
+@media (max-width: 1024px) {
+    .modal-content {
+        background-color: white;
+        padding: 15px;
+        border-radius: 8px;
+        height: 80%;
+        width: 75%;
+      }
+
+}
+
+@media (max-width: 768px) {
+    .modal-content {
+        background-color: white;
+        padding: 15px;
+        border-radius: 8px;
+        height: 80%;
+        width: 75%;
+      }
+
+}
+
+@media (max-width: 500px) {
+    .modal-content {
+        background-color: white;
+        padding: 15px;
+        border-radius: 8px;
+        height: 55%;
+        width: 75%;
+      }
 }
